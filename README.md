@@ -16,8 +16,8 @@ REPO FOR INTERNAL SQL PROJECT NAMED **PROD_DATA_PROJECT**
 
 **Step 4: Merge + Logging**
 * Wrote MERGE script to:
-    -Insert new records from staging to master table
-    -Avoid duplicates
+    * Insert new records from staging to master table
+    * Avoid duplicates
 * Created merge_log table to:
     -Auto-log imported rows with timestamp for audit trail
 
