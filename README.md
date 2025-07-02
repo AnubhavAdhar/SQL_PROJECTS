@@ -19,20 +19,20 @@ REPO FOR INTERNAL SQL PROJECT NAMED **PROD_DATA_PROJECT**
     * Insert new records from staging to master table
     * Avoid duplicates
 * Created merge_log table to:
-    -Auto-log imported rows with timestamp for audit trail
+    * Auto-log imported rows with timestamp for audit trail
 
 **Step 5: SQL Views for Aggregation**
 * To avoid heavy aggregations in ***Power BI*** I created VIEWS named as *daily_yield* and *high_downtime*
 
 **Step 6: Connected to Power BI**
 * Imported all 3 objects:
-    -production_data
-    -daily_yield
-    -high_downtime
+    * production_data
+    * daily_yield
+    * high_downtime
 * Built visualizations:
-    -KPI cards, Bar/Column charts, Tables
+    * KPI cards, Bar/Column charts, Tables
 
 **Step 7: Relationship Handling**
 * Views were pre-aggregated, so:
-    -No relationships required (unless cross-slicing needed)
-    -Views treated as independent for reporting
+    * No relationships required (unless cross-slicing needed)
+    * Views treated as independent for reporting
